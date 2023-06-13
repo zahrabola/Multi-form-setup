@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <title>Multi form - star rating</title>
 </head>
 <!-------------
@@ -13,7 +14,7 @@ https://codepen.io/camto28/pen/MOyEvp
 -->
 <body>
     <div class="wrapper">
-        <div class="1header">
+        <div class="header">
             <ul>
                 <li class="active f1progressbar">
                     <div><p>1</p></div>
@@ -37,7 +38,7 @@ https://codepen.io/camto28/pen/MOyEvp
                             <input type="text" name="Email Address" class="input" id="email"> 
                         </div>
                         <div class="input-wrap">
-                            <label for="password">Email Address</label>
+                            <label for="password">Password</label>
                             <input type="password" name="Password" class="input" id="password"> 
                         </div>
                         <div class="input-wrap">
@@ -109,8 +110,12 @@ https://codepen.io/camto28/pen/MOyEvp
             <div class="success-wrap">
                 <p>You have successfully completed the process.</p>
             </div>
-            <div class="panel-wrap">
+         <!-----------------
+        
+        
+           <div class="panel-wrap">
                 <div class="rating-container">
+                  
                   <h2>How satisfied are you with our multi-step form?</h2>
                   <form action="" id="ratingform">
                     <fieldset class="rating">
@@ -123,13 +128,16 @@ https://codepen.io/camto28/pen/MOyEvp
                         <input type="radio" id="2star" name="rating" value="2" /><label class = "full" for="star2" title="2 stars"></label>
                         <input type="radio" id="star1half" name="rating" value="1.5" /><label class="half" for="star1half" title="1.5 stars"></label>
                         <input type="radio" id="1star" name="rating" value="1" /><label class = "full" for="star1" title="1 star"></label>
-                        <input type="radio" id="starhalf" name="rating" value="0.5" /><label class="half" for="starhalf" title="0.5 stars"></label>
+                        <input type="radio" id="starhalf" name="rating" value="0.5"/>  <label class="half" for="starhalf" title="0.5 stars"></label>
                     </fieldset>
                     <input disabled type="submit" name="getValue" value="Send Review">
                   </form>
                 </div>
             </div>
+        
+        -->
         </div>
+    
  <!------------------------------>
     </div>
 </body>
