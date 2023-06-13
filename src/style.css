@@ -1,0 +1,32 @@
+
+
+
+/* star rating */
+.panel-wrap{
+    background-color: white;
+    box-shadow: 0 0 7px rgba(0,0,0,.2);
+    border-radius: 5px;
+    font-size: 90%;
+    text-align: center;
+    padding: 30px 20px;
+    max-width: 400px;
+}
+.panel-wrap form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.rating { 
+    border: none;
+    float: left;
+  }
+  
+  .rating > input { display: none; } 
+  .rating > label:before { 
+    margin: 5px;
+    font-size: 30px;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+  }
