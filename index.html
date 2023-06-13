@@ -11,6 +11,115 @@ https://codepen.io/RajRajeshDn/pen/oNowJGJ
 https://codepen.io/camto28/pen/MOyEvp
 -->
 <body>
-    
+    <div class="wrapper">
+        <div class="1header">
+            <ul>
+                <li class="active f1progressbar">
+                    <div><p>1</p></div>
+                </li>
+                <li class="active f2progressbar">
+                    <div><p>2</p></div>
+                </li>
+                <li class="active f3progressbar">
+                    <div><p>3</p></div>
+                </li>
+            </ul>
+        </div>
+        <div class="form-wrapper">
+            <!----------------------------------->
+            <div class="1-form info-data">
+                <h2>Signup Info</h2>
+                <form>
+                    <div class="formcontainer">
+                        <div class="input-wrap">
+                            <label for="email">Email Address</label>
+                            <input type="text" name="Email Address" class="input" id="email"> 
+                        </div>
+                        <div class="input-wrap">
+                            <label for="password">Email Address</label>
+                            <input type="password" name="Password" class="input" id="password"> 
+                        </div>
+                        <div class="input-wrap">
+                            <label for="confirmpassword"> Confirm Password</label>
+                            <input type="password" name="Confirm Password" class="input" id="confirmpassword"> 
+                        </div>
+                    </div>
+                </form>
+            </div>
+             <!----------------------------------->
+             <div class="2-form info-data" style="display: none;">
+                <h2>Personal Info</h2>
+                <form>
+                    <div class="formcontainer">
+                        <div class="input-wrap">
+                            <label for="username">User Name</label>
+                            <input type="text" name="User Name" class="input" id="username"> 
+                        </div>
+                        <div class="input-wrap">
+                            <label for="first-name">First Name</label>
+                            <input type="text" name="First Name" class="input" id="firstname"> 
+                        </div>
+                        <div class="input-wrap">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="Email Address" class="input" id="lastname"> 
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!------------------------------>
+            <div class="3-form info-data" style="display: none;">
+                <h2>Professional Info</h2>
+                <form>
+                    <div class="formcontainer">
+                        <div class="input-wrap">
+                            <label for="company">Current Company</label>
+                            <input type="text" name="Current Company" class="input" id="company"> 
+                        </div>
+                        <div class="input-wrap">
+                            <label for="job-title">Job Position</label>
+                            <input type="text" name="Job Position" class="input" id="jobposition"> 
+                        </div>
+                        <div class="input-wrap">
+                            <label for="experience">Total Experience</label>
+                            <input type="text" name="Email Address" class="input" id="experience"> 
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!------------------------------>
+            <div class="btn-wrap">
+                <div class="commonbtn btn1-form">
+                    <button type="button" class="btn-next">Next </button>
+                </div>
+                <div class="commonbtn btn2-form " style="display: none;">
+                    <button type="button" class="btn-next">Next </button>
+                    <button type="button" class="btn-back">Back </button>
+                </div>
+                <div class="commonbtn btn2-form " style="display: none;">
+                    <button type="button" class="btn-back">Back </button>
+                    <button type="button" class="btn-done">Done</button>
+                </div>
+            </div>
+            <!------------------------------>
+        </div>
+        <!------------------------------>
+        <div class="modal-wrapper">
+            <div class="shadow"></div>
+            <div class="success-wrap">
+                <p>You have successfully completed the process.</p>
+            </div>
+            <div class="panel-wrap">
+                <div class="rating-container">
+                  <h2>How satisfied are you with our multi-step form?</h2>
+                  <form action="" id="ratingform">
+                    <fieldset class="rating">
+
+                    </fieldset>
+                  </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
