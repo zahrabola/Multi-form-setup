@@ -62,3 +62,11 @@ btn3_form_back.addEventListener("click", function(){
 
     f3progressbar.classList.remove("active");
 })
+
+btn_done.addEventListener("click", function(){
+modalwrapper.classList.add("active");
+})
+
+shadow.addEventListener("click", function(){
+    modalwrapper.classList.remove("active");
+})

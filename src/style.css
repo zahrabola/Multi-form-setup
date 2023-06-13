@@ -73,6 +73,9 @@ body{
 .wrapper .header ul li.active:before{
 	background: #6b59d3;
 }
+.wrapper .header ul li.active p{
+	background: #6b59d3;
+}
 .header ul li div{
 	padding: 5px;
 	border-radius: 50%;
