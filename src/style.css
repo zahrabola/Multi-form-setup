@@ -128,12 +128,12 @@ label{
     border-color: #6b59d3;
 }
 .btn-wrap{
-    width: 350px;
+    width: 320px;
 	max-width: 100%;
 	margin: 0 auto;
 }
  .btn-wrap{
-    display: flex;
+  
 	justify-content: space-between;
 } 
 .btn-wrap .btn1-form{
@@ -163,6 +163,12 @@ background:#6b59d3;
 }
 .btn-back{
     display: flex;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.btn-done{
+	display: flex;
+	margin-top: 20px;
 	margin-right: 10px;
 }
 .btn-next:hover,
